@@ -1,0 +1,45 @@
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+.logo {
+    display: fixed;
+    width: 20vw;
+    left: 10vw;
+}
+#main-nav {
+    display: fixed;
+    width: 2vw;
+    left: 20vw;
+}
+#main-nav summary{
+    list-style: none;
+    color: white;
+}
+summary h1 {
+    color: black;
+    right: 20vw;
+}
+#nav-bigscreen ul {
+    list-style: none;
+    float: left;
+}
+
+#nav-bigscreen li {
+    margin: 2vh;
+}
+#nav-bigscreen a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+#nav-bigscreen a:link, a:visited, a:active {
+   color: black;
+}
+
+#nav-bigscreen a:hover{
+    color: purple;
+}
+}
